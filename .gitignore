@@ -1,1 +1,10 @@
-./.vscode
+.idea/
+.DS_Store
+node_modules/
+package-lock.json
+yarn.lock
+.vscode/
+.history/
+logs/
+target/
+pid
