@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        ".gitignore": "git-commit",
-        "wiringpi.h": "c"
-    }
-}
