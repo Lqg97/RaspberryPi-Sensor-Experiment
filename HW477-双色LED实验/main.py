@@ -3,15 +3,15 @@
         针脚顺序: [GND,R,Y]
         GND: 接地针脚
         R: 红色针脚
-        Y: 绿色针脚 
+        Y: 黄色针脚 
     参考链接: https://cloud.tencent.com/developer/inventory/1503/article/1707063
 """
 
 import RPi.GPIO as GPIO # GPIO控制模块
 import time # 时间模块
 
-colors = [0xFF00, 0x00FF] # 颜色列表，前两位标识红色，后两位标识绿色
-pins = {'pin_R':20, 'pin_G':21} # 针脚字典，BCM编码
+colors = [0xFF00, 0x00FF] # 颜色列表，前两位标识红色，后两位标识黄色
+pins = {'pin_R':16, 'pin_G':20} # 针脚字典，BCM编码
 
 GPIO.setmode(GPIO.BCM) # 设置针脚编码模式为BCM
 # 或者为板载模式，注意同步修改针脚字典
