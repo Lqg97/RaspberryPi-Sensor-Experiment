@@ -4,6 +4,7 @@
     SIG: 信号针脚
     GND: 接地针脚
     VCC: 电源针脚
+    参考链接: https://cloud.tencent.com/developer/inventory/1503/article/1707079
 """
 import RPi.GPIO as GPIO # 导入GPIO控制模块
 import time # 导入时间模块
